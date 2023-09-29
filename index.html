@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video width="800" height="600" controls>
+        <source src="https://edisciplinas.usp.br/pluginfile.php/5196097/mod_resource/content/1/Teste.mp4" type="video/mp4">
+        <track src="teste.vtt" kind="subtitles" srclang="en" label="English" default>
+        <track label="Português Brasileiro" kind="subtitles" srclang="pt-br" src="teste.vtt">
+      Your browser does not support the video tag.
+        <source src="audio-1.mp3" type="audio/mpeg">
+        <source src="audio-2.mp3" type="audio/mpeg">
+      </video>
+    <video id="my-video" class="video-js" controls>
+        <source src="https://edisciplinas.usp.br/pluginfile.php/5196097/mod_resource/content/1/Teste.mp4" type="video/mp4">
+        <track label="Português" kind="captions" srclang="pt" src="teste.vtt" default>
+        <track label="Inglês" kind="captions" srclang="en" src="teste.vtt">
+        <source src="teste1.mp3" type="audio/mpeg">
+        <source src="teste2.mp3" type="audio/mpeg">
+    </video>
+</body>
+</html>
